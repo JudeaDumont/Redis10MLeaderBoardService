@@ -1,7 +1,8 @@
 package org.example.leaderboardservice.controller;
 
-import org.example.realtimeleaderboard.service.LeaderboardService;
+import org.example.leaderboardservice.service.LeaderboardService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Set;
 
